@@ -3,8 +3,11 @@
 ## Installation:
 - Install git & yay
 - Install fish & omf
-The run the following:
-``yay -Syuq --noconfirm --needed stow git neovim github-cli fish zen-browser-bin yazi zoxide p7zip i3-wm autotiling polybar picom-git flameshot ttf-cascadia-code-nerd ttf-nerd-fonts-symbols-mono zscroll-git dunst rofi-power-menu i3lock xss-lock texlive zathura``
+- Run the following:
+```
+yay -Syuq --noconfirm --needed stow git neovim github-cli fish zen-browser-bin yazi zoxide p7zip i3-wm autotiling polybar picom-git flameshot ttf-cascadia-code-nerd ttf-nerd-fonts-symbols-mono zscroll-git dunst rofi-power-menu i3lock xss-lock texlive zathura
+```
+Please note that the dependecies for actual Sway are different, and this is mainly a placeholder.
 
 # Scarlet Files
 All of my configs in one place
