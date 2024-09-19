@@ -1,4 +1,4 @@
-## Edit: forked for my own personal use. Will be heavily modified in the future as well as ported for Sway.
+### Edit: forked for my own personal use. Will be heavily modified in the future as well as ported for Sway.
 
 # Scarlet Files
 All of my configs in one place
