@@ -1,5 +1,11 @@
 ### Edit: forked for my own personal use. Will be heavily modified in the future as well as ported for Sway.
 
+## Installation:
+- Install git & yay
+- Install fish & omf
+The run the following:
+``yay -Syuq --noconfirm --needed stow git neovim github-cli fish zen-browser-bin yazi zoxide p7zip i3-wm autotiling polybar picom-git flameshot ttf-cascadia-code-nerd ttf-nerd-fonts-symbols-mono zscroll-git dunst rofi-power-menu i3lock xss-lock texlive zathura``
+
 # Scarlet Files
 All of my configs in one place
 
