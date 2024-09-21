@@ -1,0 +1,112 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "Cascadia Code", monospace;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #191724;
+    color: #e0def4;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: #e0def4;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#workspaces button.focused {
+    color: #eb6f92;
+}
+
+#workspaces button.urgent {
+    background-color: #ebbcba;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#custom-spotify,
+#tray,
+#mode {
+    padding: 0 10px;
+    margin: 0 4px;
+    color: #e0def4;
+    border-radius: 2px;
+}
+
+#clock {
+    background-color: #21202e;
+    color: #eb6f92;
+    font-weight: bold;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: #ebbcba;
+    color: #e0def4;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu,
+#memory,
+#backlight,
+#network,
+#pulseaudio,
+#temperature {
+    background-color: #21202e;
+}
+
+#temperature.critical {
+    background-color: #ebbcba;
+}
+
+#tray {
+    background-color: #21202e;
+}
+
+#custom-spotify,
+#custom-spotify-prev,
+#custom-spotify-play-pause,
+#custom-spotify-next {
+    color: #eb6f92;
+    background-color: #21202e;
+}
+
+#workspaces {
+    background-color: #21202e;
+    border-radius: 2px;
+    margin: 0 4px;
+}

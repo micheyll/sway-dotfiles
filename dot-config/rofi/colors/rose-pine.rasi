@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : nix
+ * Github : @micheyll
+ * 
+ * Colors
+ **/
+
+* {
+    background:     #191724FF;
+    background-alt: #1f1d2eFF;
+    foreground:     #e0def4FF;
+    selected:       #eb6f92FF;
+    active:         #ebbcbaFF;
+    urgent:         #f6c177FF;
+}

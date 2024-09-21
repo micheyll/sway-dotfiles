@@ -32,10 +32,10 @@ spec "user.fidget" -- Shows processes
 spec "user.lazygit"
 spec "user.spectre"
 spec "user.todocomments"
-spec "user.autosave"
+-- spec "user.autosave"
 -- spec "user.keys" Display Keys
 spec "user.transparent"
 spec "user.vimtex"
-spec "user.vim-wakatime"
+-- spec "user.vim-wakatime"
 spec "user.vim-dadbod-ui"
 require "user.lazy"

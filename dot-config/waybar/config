@@ -1,0 +1,95 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 26,
+    "spacing": 4,
+    "modules-left": ["sway/workspaces", "custom/spotify-prev", "custom/spotify-play-pause", "custom/spotify-next", "custom/spotify"],
+    "modules-center": ["clock"],
+    "modules-right": ["backlight", "battery", "pulseaudio", "memory", "cpu", "temperature", "tray"],
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "urgent": "",
+            "focused": "",
+            "default": ""
+        }
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format": "{:%H:%M}",
+        "format-alt": "{:%Y-%m-%d %H:%M:%S}"
+    },
+    "cpu": {
+        "format": "CPU {usage}%",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "MEM {}%"
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "TEMP {temperatureC}°C"
+    },
+    "backlight": {
+        "format": "BL {percent}%",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "BAT {capacity}%",
+        "format-charging": "CHR {capacity}%",
+        "format-plugged": "PLG {capacity}%",
+        "format-alt": "{time}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "pulseaudio": {
+        "format": "VOL {volume}%",
+        "format-bluetooth": "BT {volume}%",
+        "format-bluetooth-muted": "BT MUTE",
+        "format-muted": "MUTE",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "custom/spotify": {
+        "exec": "/path/to/mediaplayer.py --player spotify",
+        "format": "♫ {}",
+        "return-type": "json",
+        "on-click": "playerctl play-pause -p spotify",
+        "on-scroll-up": "playerctl next -p spotify",
+        "on-scroll-down": "playerctl previous -p spotify"
+    },
+    "custom/spotify-prev": {
+        "format": "◀",
+        "on-click": "playerctl previous -p spotify"
+    },
+    "custom/spotify-play-pause": {
+        "format": "⏯",
+        "on-click": "playerctl play-pause -p spotify"
+    },
+    "custom/spotify-next": {
+        "format": "▶",
+        "on-click": "playerctl next -p spotify"
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10
+    }
+}
