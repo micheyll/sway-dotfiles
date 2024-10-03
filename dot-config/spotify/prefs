@@ -1,0 +1,12 @@
+autologin.username="maikkari"
+autologin.saved_credentials="{\"maikkari\":[\"maikkari\",\"if1L/RrGmZiVwAGpIOYN4yQNhmxZzxjLGpMZch8hmm4WnDvep48BB3No3EREoXj45cdt/KfHv4NOA5gVpX0Fy4pH53c623+mapR/qo723wbFtccBOrlPbcQy3LProtBNkxhtcpg4MqV6jENLDSXRkYcv9iBuLx+q0yidKpLNgrz2qVOk8GRXDaytjan9MJunO0cMJK84nwA0gJuYbfUbjJNUz+VRqKIrXd5cFQmlpzaDvESdZzg3ReTVqgKm53GzPGrVnloe10TOl6Vb/QIbPbuEXNMd+HWZGFKKFw5zbIE=\"]}"
+autologin.blob="if1L/RrGmZiVwAGpIOYN4yQNhmxZzxjLGpMZch8hmm4WnDvep48BB3No3EREoXj45cdt/KfHv4NOA5gVpX0Fy4pH53c623+mapR/qo723wbFtccBOrlPbcQy3LProtBNkxhtcpg4MqV6jENLDSXRkYcv9iBuLx+q0yidKpLNgrz2qVOk8GRXDaytjan9MJunO0cMJK84nwA0gJuYbfUbjJNUz+VRqKIrXd5cFQmlpzaDvESdZzg3ReTVqgKm53GzPGrVnloe10TOl6Vb/QIbPbuEXNMd+HWZGFKKFw5zbIE="
+es.send-on-startup=true
+core.clock_delta=0
+app.window.position.saved=true
+app.window.position.height=1420
+storage.last-location="/home/nix/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=1264
+autologin.canonical_username="maikkari"
+app.last-launched-version="1.2.47.364.gf06e5cee"

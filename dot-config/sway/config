@@ -1,0 +1,248 @@
+output DP-1 mode 3440x1440@174.962Hz position 0 0 transform normal
+# focus output DP-1
+output HDMI-A-1 mode 2560x1440 position 3440 -850 transform 90
+output DP-2 mode 2560x1440 position 880 -1440 transform 180
+output DP-1 adaptive_sync off
+
+output DP-1 color_profile icc "/home/nix/.config/.colors/Odyssey G85SB_74_Standard.icm"
+output DP-2 color_profile icc "/home/nix/.config/.colors/VG27AQ1A_72_Standard.icm"
+output HDMI-A-1 color_profile icc "/home/nix/.config/.colors/P24h-10_68_Standard.icm"
+
+set $mod Mod4
+set $gnome-schema org.gnome.desktop.interface
+
+input type:pointer {
+    accel_profile flat
+    pointer_accel 0
+}
+# Set mouse cursor to rose-pine
+seat seat0 xcursor_theme BreezeX-RosePine-Linux
+exec_always gsettings set $gnome-schema cursor-theme BreezeX-RosePine-Linux
+
+input type:keyboard {
+    xkb_layout fi
+    xkb_variant nodeadkeys
+    repeat_rate 25
+    repeat_delay 250
+}
+
+# Automatically put the monitors to sleep after 10 minutes
+exec swayidle -w \
+  timeout 600 'swaylock -f --color 191724 --inside-color 26233a --ring-color eb6f92 --line-color 524f67 --text-color e0def4' \
+  timeout 605 'swaymsg "output * power off"' \
+  resume 'swaymsg "output * power on"'
+
+# Set initial wallpapers
+exec_always /home/nix/.config/sway/scripts/randomize_wallpaper.sh
+# Change wallpapers every hour
+exec while true; do sleep 3600; /home/nix/.config/sway/scripts/randomize_wallpaper.sh; done
+
+# CHANGE THIS TO SWAY VARIANT exec --no-startup-id flameshot
+exec easyeffects --gapplication-service
+
+# Font for window titles. Will also be used by the bar unless a different font is used in the bar {} block below.
+font pango:Cascadia Cove 8
+
+for_window [class="steam"] floating enable
+for_window [class="firefox"] floating enable
+
+# COMMENTED OUT, idk wtf this is even.. exec_always --no-startup-id autotiling
+exec_always mako
+exec waybar
+exec_always wlsunset -S 07:00 -s 21:00 -d 5 -t 4500 
+# Border Config
+default_border pixel 2
+# hide_edge_borders smart
+
+# Gaps
+gaps inner 8
+# smart_gaps on
+
+# Rose Pine Theme
+# set primary Rosé Pine colorscheme colors
+set $base           #191724
+set $surface        #1f1d2e
+set $overlay        #26233a
+set $muted          #6e6a86
+set $subtle         #908caa
+set $text           #e0def4
+set $love           #eb6f92
+set $gold           #f6c177
+set $rose           #ebbcba
+set $pine           #31748f
+set $foam           #9ccfd8
+set $iris           #c4a7e7
+set $highlightlow   #21202e
+set $highlightmed   #403d52
+set $highlighthigh  #524f67
+
+# Define colors
+set $base           #191724
+set $surface        #1f1d2e
+set $overlay        #26233a
+set $text           #e0def4
+set $love           #eb6f92
+
+# Teming border and Windows --------------
+# target                 title     bg    text   indicator  border
+client.focused           $love     $base $text  $love      $love
+client.focused_inactive  $text     $base $text  $surface    $surface
+client.unfocused         $text     $base $text  $overlay   $overlay
+client.urgent            $text     $base $text  $love      $love
+client.placeholder       $base     $base $text  $overlay   $overlay
+client.background        $base
+
+# ADD TIMER FOR 10 MINUTE BLACK SCREEN & LOCK
+
+# NetworkManager is the most popular way to manage wireless networks on Linux,
+# and nm-applet is a desktop environment-independent system tray GUI for it.
+exec --no-startup-id nm-applet
+
+# Use pactl to adjust volume in PulseAudio.
+set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+# Media controls
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioPause exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+
+# Shortcuts
+bindsym $mod+t exec kitty
+bindsym $mod+d exec ~/.config/rofi/launchers/type-1/launcher.sh
+bindsym $mod+f exec firefox
+bindsym $mod+e exec kitty fish -C yy
+bindsym $mod+c exec kitty nvim
+bindsym Alt+Shift+4 exec grim -g "$(slurp)" /tmp/screenshot.png && curl -s -F "files[]=@/tmp/screenshot.png" https://img.animemaa.fi/upload.php | jq -r '.files[0].url' | wl-copy && notify-send "Screenshot uploaded" "URL copied to clipboard"
+bindsym $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy
+bindsym $mod+shift+z exec swaylock -f --color 191724 --inside-color 26233a --ring-color eb6f92 --line-color 524f67 --text-color e0def4 && sleep 1 && systemctl suspend
+
+# kill focused window
+bindsym $mod+shift+q kill
+
+# change focus
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
+# move focused window
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
+# enter fullscreen mode for the focused container
+bindsym $mod+Return fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $mod+w layout tabbed
+bindsym $mod+s layout toggle split
+# change it to autotiling
+# bindsym $mod+t layout toggle split
+
+# toggle tiling / floating
+bindsym $mod+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $mod+g focus mode_toggle
+
+# Pin workspaces 1-4 to the widescreen monitor
+workspace 1 output DP-1
+workspace 2 output HDMI-A-1
+workspace 3 output DP-2
+workspace 4 output DP-1
+workspace 5 output HDMI-A-1
+workspace 6 output DP-2
+workspace 7 output DP-1
+workspace 8 output DP-1
+
+# Enable floating for workspaces on the widescreen monitor
+for_window [workspace="^(?:1|4|7|8)$"] floating enable
+for_window [workspace="^(?:2|3|5|6)$"] floating disable
+
+# Define names for default workspaces for which we configure key bindings later on.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1; [workspace=$ws1] floating enable, focus
+bindsym $mod+Shift+2 move container to workspace number $ws2; [workspace=$ws2] floating disable, focus
+bindsym $mod+Shift+3 move container to workspace number $ws3; [workspace=$ws3] floating disable, focus
+bindsym $mod+Shift+4 move container to workspace number $ws4; [workspace=$ws4] floating enable, focus
+bindsym $mod+Shift+5 move container to workspace number $ws5; [workspace=$ws5] floating disable, focus
+bindsym $mod+Shift+6 move container to workspace number $ws6; [workspace=$ws6] floating disable, focus
+bindsym $mod+Shift+7 move container to workspace number $ws7; [workspace=$ws7] floating enable, focus
+bindsym $mod+Shift+8 move container to workspace number $ws8; [workspace=$ws8] floating enable, focus
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# reload the configuration file
+bindsym $mod+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r exec "swaymsg reload"
+
+# exit i3 (logs you out of your X session)
+# bindsym $mod+BackSpace exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Power Menu
+bindsym $mod+BackSpace exec "~/.config/rofi/launchers/type-1/launcher.sh -show power-menu -modi 'power-menu:rofi-power-menu --choices=shutdown/reboot/logout/' -theme-str 'window {width: 10em;} listview {columns: 1; lines: 3;} inputbar {enabled: false;}'"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
+
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"

@@ -18,4 +18,5 @@ end
 
 zoxide init fish | source
 alias "cd"="z"
+alias "ls"="lsd"
 export EDITOR=nvim
