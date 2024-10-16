@@ -5,7 +5,7 @@
 - Install fish & omf
 - Run the following:
 ```
-ay -Syuq --noconfirm --needed neovim yazi zoxide p7zip ttf-cascadia-code-nerd ttf-nerd-fonts-symbols-mono mako rofi-power-menu swaylock
+yay -Syuq --noconfirm --needed neovim yazi zoxide p7zip ttf-cascadia-code-nerd ttf-nerd-fonts-symbols-mono mako rofi-power-menu swaylock waybar spotify-launcher spicetify mpv cava easyeffects
 ```
 Please note that the dependecies for actual Sway are different, and this is mainly a placeholder.
 
