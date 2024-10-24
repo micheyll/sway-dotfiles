@@ -1,5 +1,6 @@
 if status --is-interactive
   set fish_greeting
+    fastfetch
 
   function yy
     set tmp (mktemp -t "yazi-cwd.XXXXXX")
@@ -19,4 +20,6 @@ end
 zoxide init fish | source
 alias "cd"="z"
 alias "ls"="lsd"
+alias "s"="kitten ssh"
+alias "eq"="cava"
 export EDITOR=nvim

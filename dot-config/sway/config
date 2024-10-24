@@ -10,6 +10,7 @@ output HDMI-A-1 color_profile icc "/home/nix/.config/.colors/P24h-10_68_Standard
 
 set $mod Mod4
 set $gnome-schema org.gnome.desktop.interface
+exec systemctl --user import-environment WAYLAND_DISPLAY
 
 input type:pointer {
     accel_profile flat
@@ -37,8 +38,10 @@ exec_always /home/nix/.config/sway/scripts/randomize_wallpaper.sh
 # Change wallpapers every hour
 exec while true; do sleep 3600; /home/nix/.config/sway/scripts/randomize_wallpaper.sh; done
 
-# CHANGE THIS TO SWAY VARIANT exec --no-startup-id flameshot
-exec easyeffects --gapplication-service
+# Configuration for parametric EQ
+exec_always easyeffects --gapplication-service
+bindsym $mod+F1 exec easyeffects -l hd800s
+bindsym $mod+F2 exec easyeffects -l kajari
 
 # Font for window titles. Will also be used by the bar unless a different font is used in the bar {} block below.
 font pango:Cascadia Cove 8
@@ -46,8 +49,7 @@ font pango:Cascadia Cove 8
 for_window [class="steam"] floating enable
 for_window [class="firefox"] floating enable
 
-# COMMENTED OUT, idk wtf this is even.. exec_always --no-startup-id autotiling
-exec_always mako
+exec mako
 exec waybar
 exec_always wlsunset -S 07:00 -s 21:00 -d 5 -t 4500 
 # Border Config
