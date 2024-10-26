@@ -33,10 +33,15 @@ exec swayidle -w \
   timeout 605 'swaymsg "output * power off"' \
   resume 'swaymsg "output * power on"'
 
-# Set initial wallpapers
-exec_always /home/nix/.config/sway/scripts/randomize_wallpaper.sh
+# Set wallpapers for each monitor
+output HDMI-A-1 bg /home/nix/Pictures/Wallpapers/wallhaven-vq2jx5.jpg fill
+output DP-2 bg /home/nix/Pictures/Wallpapers/wallhaven-3lprgy.jpg fill
+output DP-1 bg /home/nix/Pictures/Wallpapers/a_drawing_of_a_building.png fill
+
+# Script for randomizing wallpapers for each monitor
+# exec_always /home/nix/.config/sway/scripts/randomize_wallpaper.sh
 # Change wallpapers every hour
-exec while true; do sleep 3600; /home/nix/.config/sway/scripts/randomize_wallpaper.sh; done
+# exec while true; do sleep 3600; /home/nix/.config/sway/scripts/randomize_wallpaper.sh; done
 
 # Configuration for parametric EQ
 exec_always easyeffects --gapplication-service
@@ -248,3 +253,10 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+### Gnome settings
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'rose-pine-gtk'
+    gsettings set $gnome-schema icon-theme 'rose-pine-icons'
+}
