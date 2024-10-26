@@ -4,9 +4,9 @@
     "position": "top",
     "height": 26,
     "spacing": 4,
-    "modules-left": ["sway/workspaces", "custom/spotify-prev", "custom/spotify-play-pause", "custom/spotify-next", "custom/spotify"],
+    "modules-left": ["sway/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["backlight", "battery", "pulseaudio", "memory", "cpu", "temperature", "tray"],
+    "modules-right": ["backlight", "battery", "memory", "cpu", "temperature", "tray"],
     "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": true,
