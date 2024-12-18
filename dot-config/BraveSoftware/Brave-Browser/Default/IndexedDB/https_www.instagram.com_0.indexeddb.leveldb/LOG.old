@@ -1,0 +1,15 @@
+2025/03/29-09:36:45.878 309c Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/29-09:36:45.879 309c Recovering log #7
+2025/03/29-09:36:45.879 309c Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.instagram.com_0.indexeddb.leveldb/000007.log 
+2025/03/29-09:36:57.273 309d Level-0 table #12: started
+2025/03/29-09:36:57.274 309d Level-0 table #12: 38575 bytes OK
+2025/03/29-09:36:57.275 309d Delete type=0 #7
+2025/03/29-09:36:57.275 309d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/29-09:36:57.275 309d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x00\x00\xc8\x1a\x00u\x00n\x00r\x00e\x00s\x00p\x00o\x00n\x00s\x00i\x00v\x00e\x00n\x00e\x00s\x00s\x00-\x00e\x00v\x00e\x00n\x00t\x00s\x00-\x00v\x002' @ 7168 : 1
+2025/03/29-09:36:57.275 309d Compacting 1@1 + 1@2 files
+2025/03/29-09:36:57.277 309d Generated table #13@1: 1785 keys, 67502 bytes
+2025/03/29-09:36:57.277 309d Compacted 1@1 + 1@2 files => 67502 bytes
+2025/03/29-09:36:57.278 309d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/29-09:36:57.278 309d Delete type=2 #9
+2025/03/29-09:36:57.278 309d Delete type=2 #12
+2025/03/29-09:36:57.278 309d Manual compaction at level-1 from '\x00\x09\x00\x00\xc8\x1a\x00u\x00n\x00r\x00e\x00s\x00p\x00o\x00n\x00s\x00i\x00v\x00e\x00n\x00e\x00s\x00s\x00-\x00e\x00v\x00e\x00n\x00t\x00s\x00-\x00v\x002' @ 7168 : 1 .. (end); will stop at (end)

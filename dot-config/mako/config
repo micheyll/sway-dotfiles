@@ -1,15 +1,21 @@
-width=300
-height=110
-font=CaskaydiaCoveNFM-Regular 10
-background-color=#26233a
-text-color=#e0def4
-border-color=#524f67
-progress-color=over #31748f
 default-timeout=5000
-ignore-timeout=1
-output=DP-1
-border-radius=15
-max-icon-size=64
+
+# Rose Pine Moon theme for mako
+background-color=#232136
+text-color=#e0def4
+border-color=#ea9a97
+progress-color=over #3e8fb0
+
+# Optional: Different colors for different urgency levels
+[urgency=low]
+background-color=#232136
+text-color=#9ccfd8
+
+[urgency=normal]
+background-color=#232136
+text-color=#e0def4
 
 [urgency=high]
+background-color=#232136
+text-color=#eb6f92
 border-color=#eb6f92

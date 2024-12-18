@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1741512007271224-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>edit-redo</icon>
+	<name>Upload to img.animemaa.fi</name>
+	<submenu></submenu>
+	<unique-id>1742211693266692-1</unique-id>
+	<command>~/.local/bin/upload-to-animemaa.sh %f</command>
+	<description>Upload file and copy link to clipboard</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<audio-files/>
+	<image-files/>
+	<other-files/>
+	<text-files/>
+	<video-files/>
+</action>
+</actions>

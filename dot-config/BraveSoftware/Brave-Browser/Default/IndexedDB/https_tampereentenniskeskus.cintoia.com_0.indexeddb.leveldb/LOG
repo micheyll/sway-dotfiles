@@ -1,0 +1,13 @@
+2025/03/23-10:39:56.826 b0ce Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tampereentenniskeskus.cintoia.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/23-10:39:56.826 b0ce Recovering log #12
+2025/03/23-10:39:56.826 b0ce Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tampereentenniskeskus.cintoia.com_0.indexeddb.leveldb/000012.log 
+2025/03/23-10:39:56.833 b0da Level-0 table #18: started
+2025/03/23-10:39:56.834 b0da Level-0 table #18: 653 bytes OK
+2025/03/23-10:39:56.835 b0da Delete type=0 #12
+2025/03/23-10:39:56.835 b0ce Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/23-10:41:11.460 b0ce Compacting 1@1 + 1@2 files
+2025/03/23-10:41:11.461 b0ce Generated table #19@1: 38 keys, 3555 bytes
+2025/03/23-10:41:11.461 b0ce Compacted 1@1 + 1@2 files => 3555 bytes
+2025/03/23-10:41:11.462 b0ce compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/23-10:41:11.463 b0ce Delete type=2 #15
+2025/03/23-10:41:11.463 b0ce Delete type=2 #18

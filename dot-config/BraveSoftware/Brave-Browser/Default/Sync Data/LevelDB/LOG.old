@@ -1,0 +1,390 @@
+2025/03/28-20:09:38.823 309f Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/03/28-20:09:38.826 309f Recovering log #1181
+2025/03/28-20:09:38.827 309f Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/001181.log 
+2025/03/28-20:14:20.752 30aa Level-0 table #1186: started
+2025/03/28-20:14:20.754 30aa Level-0 table #1186: 116170 bytes OK
+2025/03/28-20:14:20.756 30aa Delete type=0 #1181
+2025/03/28-20:31:07.198 30aa Level-0 table #1188: started
+2025/03/28-20:31:07.200 30aa Level-0 table #1188: 73084 bytes OK
+2025/03/28-20:31:07.202 30aa Delete type=0 #1185
+2025/03/28-23:16:17.706 30a3 Level-0 table #1190: started
+2025/03/28-23:16:17.708 30a3 Level-0 table #1190: 94343 bytes OK
+2025/03/28-23:16:17.710 30a3 Delete type=0 #1187
+2025/03/29-09:18:52.859 30aa Level-0 table #1192: started
+2025/03/29-09:18:52.861 30aa Level-0 table #1192: 99703 bytes OK
+2025/03/29-09:18:52.863 30aa Delete type=0 #1189
+2025/03/29-09:18:52.863 30aa Compacting 4@0 + 1@1 files
+2025/03/29-09:18:52.867 30aa Generated table #1193@0: 787 keys, 123822 bytes
+2025/03/29-09:18:52.867 30aa Compacted 4@0 + 1@1 files => 123822 bytes
+2025/03/29-09:18:52.869 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-09:18:52.869 30aa Delete type=2 #1183
+2025/03/29-09:18:52.869 30aa Delete type=2 #1186
+2025/03/29-09:18:52.869 30aa Delete type=2 #1188
+2025/03/29-09:18:52.869 30aa Delete type=2 #1190
+2025/03/29-09:18:52.869 30aa Delete type=2 #1192
+2025/03/29-09:31:12.655 309d Level-0 table #1195: started
+2025/03/29-09:31:12.657 309d Level-0 table #1195: 83006 bytes OK
+2025/03/29-09:31:12.659 309d Delete type=0 #1191
+2025/03/29-09:43:38.673 309c Level-0 table #1197: started
+2025/03/29-09:43:38.675 309c Level-0 table #1197: 79785 bytes OK
+2025/03/29-09:43:38.676 309c Delete type=0 #1194
+2025/03/29-09:54:36.228 309d Level-0 table #1199: started
+2025/03/29-09:54:36.230 309d Level-0 table #1199: 82885 bytes OK
+2025/03/29-09:54:36.232 309d Delete type=0 #1196
+2025/03/29-10:43:52.251 30aa Level-0 table #1201: started
+2025/03/29-10:43:52.253 30aa Level-0 table #1201: 63125 bytes OK
+2025/03/29-10:43:52.255 30aa Delete type=0 #1198
+2025/03/29-10:43:52.255 30aa Compacting 4@0 + 1@1 files
+2025/03/29-10:43:52.258 30aa Generated table #1202@0: 787 keys, 122620 bytes
+2025/03/29-10:43:52.258 30aa Compacted 4@0 + 1@1 files => 122620 bytes
+2025/03/29-10:43:52.260 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-10:43:52.260 30aa Delete type=2 #1193
+2025/03/29-10:43:52.260 30aa Delete type=2 #1195
+2025/03/29-10:43:52.260 30aa Delete type=2 #1197
+2025/03/29-10:43:52.260 30aa Delete type=2 #1199
+2025/03/29-10:43:52.260 30aa Delete type=2 #1201
+2025/03/29-11:37:46.959 30aa Level-0 table #1204: started
+2025/03/29-11:37:46.961 30aa Level-0 table #1204: 61518 bytes OK
+2025/03/29-11:37:46.963 30aa Delete type=0 #1200
+2025/03/29-12:30:42.439 30aa Level-0 table #1206: started
+2025/03/29-12:30:42.442 30aa Level-0 table #1206: 59304 bytes OK
+2025/03/29-12:30:42.443 30aa Delete type=0 #1203
+2025/03/29-12:49:29.433 309f Level-0 table #1208: started
+2025/03/29-12:49:29.435 309f Level-0 table #1208: 120831 bytes OK
+2025/03/29-12:49:29.437 309f Delete type=0 #1205
+2025/03/29-13:18:13.739 30aa Level-0 table #1210: started
+2025/03/29-13:18:13.741 30aa Level-0 table #1210: 65201 bytes OK
+2025/03/29-13:18:13.743 30aa Delete type=0 #1207
+2025/03/29-13:18:13.743 30aa Compacting 4@0 + 1@1 files
+2025/03/29-13:18:13.747 30aa Generated table #1211@0: 787 keys, 121437 bytes
+2025/03/29-13:18:13.747 30aa Compacted 4@0 + 1@1 files => 121437 bytes
+2025/03/29-13:18:13.749 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-13:18:13.749 30aa Delete type=2 #1202
+2025/03/29-13:18:13.749 30aa Delete type=2 #1204
+2025/03/29-13:18:13.749 30aa Delete type=2 #1206
+2025/03/29-13:18:13.749 30aa Delete type=2 #1208
+2025/03/29-13:18:13.749 30aa Delete type=2 #1210
+2025/03/29-14:08:38.836 30aa Level-0 table #1213: started
+2025/03/29-14:08:38.839 30aa Level-0 table #1213: 60264 bytes OK
+2025/03/29-14:08:38.841 30aa Delete type=0 #1209
+2025/03/29-14:22:21.930 30a3 Level-0 table #1215: started
+2025/03/29-14:22:21.932 30a3 Level-0 table #1215: 73619 bytes OK
+2025/03/29-14:22:21.934 30a3 Delete type=0 #1212
+2025/03/29-14:36:35.358 30aa Level-0 table #1217: started
+2025/03/29-14:36:35.360 30aa Level-0 table #1217: 90202 bytes OK
+2025/03/29-14:36:35.361 30aa Delete type=0 #1214
+2025/03/29-15:23:58.050 30aa Level-0 table #1219: started
+2025/03/29-15:23:58.052 30aa Level-0 table #1219: 60281 bytes OK
+2025/03/29-15:23:58.054 30aa Delete type=0 #1216
+2025/03/29-15:23:58.054 30aa Compacting 4@0 + 1@1 files
+2025/03/29-15:23:58.058 30aa Generated table #1220@0: 787 keys, 122844 bytes
+2025/03/29-15:23:58.058 30aa Compacted 4@0 + 1@1 files => 122844 bytes
+2025/03/29-15:23:58.060 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-15:23:58.060 30aa Delete type=2 #1211
+2025/03/29-15:23:58.060 30aa Delete type=2 #1213
+2025/03/29-15:23:58.060 30aa Delete type=2 #1215
+2025/03/29-15:23:58.060 30aa Delete type=2 #1217
+2025/03/29-15:23:58.060 30aa Delete type=2 #1219
+2025/03/29-15:44:44.368 30aa Level-0 table #1222: started
+2025/03/29-15:44:44.371 30aa Level-0 table #1222: 71844 bytes OK
+2025/03/29-15:44:44.373 30aa Delete type=0 #1218
+2025/03/29-16:21:06.160 30aa Level-0 table #1224: started
+2025/03/29-16:21:06.162 30aa Level-0 table #1224: 73496 bytes OK
+2025/03/29-16:21:06.163 30aa Delete type=0 #1221
+2025/03/29-17:18:02.393 30aa Level-0 table #1226: started
+2025/03/29-17:18:02.396 30aa Level-0 table #1226: 54913 bytes OK
+2025/03/29-17:18:02.399 30aa Delete type=0 #1223
+2025/03/29-17:51:50.289 309d Level-0 table #1228: started
+2025/03/29-17:51:50.291 309d Level-0 table #1228: 77175 bytes OK
+2025/03/29-17:51:50.293 309d Delete type=0 #1225
+2025/03/29-17:51:50.293 309d Compacting 4@0 + 1@1 files
+2025/03/29-17:51:50.297 309d Generated table #1229@0: 787 keys, 125090 bytes
+2025/03/29-17:51:50.297 309d Compacted 4@0 + 1@1 files => 125090 bytes
+2025/03/29-17:51:50.299 309d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-17:51:50.299 309d Delete type=2 #1220
+2025/03/29-17:51:50.299 309d Delete type=2 #1222
+2025/03/29-17:51:50.299 309d Delete type=2 #1224
+2025/03/29-17:51:50.299 309d Delete type=2 #1226
+2025/03/29-17:51:50.299 309d Delete type=2 #1228
+2025/03/29-18:05:49.282 309f Level-0 table #1231: started
+2025/03/29-18:05:49.284 309f Level-0 table #1231: 116058 bytes OK
+2025/03/29-18:05:49.286 309f Delete type=0 #1227
+2025/03/29-18:33:46.816 30ac Level-0 table #1233: started
+2025/03/29-18:33:46.819 30ac Level-0 table #1233: 96994 bytes OK
+2025/03/29-18:33:46.821 30ac Delete type=0 #1230
+2025/03/29-19:22:38.548 30aa Level-0 table #1235: started
+2025/03/29-19:22:38.550 30aa Level-0 table #1235: 61913 bytes OK
+2025/03/29-19:22:38.552 30aa Delete type=0 #1232
+2025/03/29-19:37:20.336 30aa Level-0 table #1237: started
+2025/03/29-19:37:20.339 30aa Level-0 table #1237: 72944 bytes OK
+2025/03/29-19:37:20.340 30aa Delete type=0 #1234
+2025/03/29-19:37:20.340 30aa Compacting 4@0 + 1@1 files
+2025/03/29-19:37:20.343 30aa Generated table #1238@0: 787 keys, 123783 bytes
+2025/03/29-19:37:20.344 30aa Compacted 4@0 + 1@1 files => 123783 bytes
+2025/03/29-19:37:20.345 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/29-19:37:20.345 30aa Delete type=2 #1229
+2025/03/29-19:37:20.345 30aa Delete type=2 #1231
+2025/03/29-19:37:20.345 30aa Delete type=2 #1233
+2025/03/29-19:37:20.345 30aa Delete type=2 #1235
+2025/03/29-19:37:20.345 30aa Delete type=2 #1237
+2025/03/29-20:06:39.960 30aa Level-0 table #1240: started
+2025/03/29-20:06:39.963 30aa Level-0 table #1240: 64860 bytes OK
+2025/03/29-20:06:39.964 30aa Delete type=0 #1236
+2025/03/30-09:34:57.174 30aa Level-0 table #1242: started
+2025/03/30-09:34:57.176 30aa Level-0 table #1242: 76047 bytes OK
+2025/03/30-09:34:57.178 30aa Delete type=0 #1239
+2025/03/30-09:42:27.029 30a3 Level-0 table #1244: started
+2025/03/30-09:42:27.031 30a3 Level-0 table #1244: 73018 bytes OK
+2025/03/30-09:42:27.034 30a3 Delete type=0 #1241
+2025/03/30-10:09:14.280 30aa Level-0 table #1246: started
+2025/03/30-10:09:14.282 30aa Level-0 table #1246: 67194 bytes OK
+2025/03/30-10:09:14.284 30aa Delete type=0 #1243
+2025/03/30-10:09:14.284 30aa Compacting 4@0 + 1@1 files
+2025/03/30-10:09:14.288 30aa Generated table #1247@0: 787 keys, 122876 bytes
+2025/03/30-10:09:14.288 30aa Compacted 4@0 + 1@1 files => 122876 bytes
+2025/03/30-10:09:14.289 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-10:09:14.289 30aa Delete type=2 #1238
+2025/03/30-10:09:14.289 30aa Delete type=2 #1240
+2025/03/30-10:09:14.290 30aa Delete type=2 #1242
+2025/03/30-10:09:14.290 30aa Delete type=2 #1244
+2025/03/30-10:09:14.290 30aa Delete type=2 #1246
+2025/03/30-10:29:47.706 30aa Level-0 table #1249: started
+2025/03/30-10:29:47.708 30aa Level-0 table #1249: 67342 bytes OK
+2025/03/30-10:29:47.710 30aa Delete type=0 #1245
+2025/03/30-10:44:10.343 309d Level-0 table #1251: started
+2025/03/30-10:44:10.345 309d Level-0 table #1251: 90527 bytes OK
+2025/03/30-10:44:10.346 309d Delete type=0 #1248
+2025/03/30-10:50:25.205 309f Level-0 table #1253: started
+2025/03/30-10:50:25.207 309f Level-0 table #1253: 88434 bytes OK
+2025/03/30-10:50:25.209 309f Delete type=0 #1250
+2025/03/30-10:53:46.000 30aa Level-0 table #1255: started
+2025/03/30-10:53:46.002 30aa Level-0 table #1255: 84026 bytes OK
+2025/03/30-10:53:46.004 30aa Delete type=0 #1252
+2025/03/30-10:53:46.004 30aa Compacting 4@0 + 1@1 files
+2025/03/30-10:53:46.007 30aa Generated table #1256@0: 787 keys, 123905 bytes
+2025/03/30-10:53:46.008 30aa Compacted 4@0 + 1@1 files => 123905 bytes
+2025/03/30-10:53:46.009 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-10:53:46.010 30aa Delete type=2 #1247
+2025/03/30-10:53:46.010 30aa Delete type=2 #1249
+2025/03/30-10:53:46.010 30aa Delete type=2 #1251
+2025/03/30-10:53:46.010 30aa Delete type=2 #1253
+2025/03/30-10:53:46.010 30aa Delete type=2 #1255
+2025/03/30-10:56:25.780 309d Level-0 table #1258: started
+2025/03/30-10:56:25.782 309d Level-0 table #1258: 79248 bytes OK
+2025/03/30-10:56:25.783 309d Delete type=0 #1254
+2025/03/30-10:58:32.228 309f Level-0 table #1260: started
+2025/03/30-10:58:32.230 309f Level-0 table #1260: 79783 bytes OK
+2025/03/30-10:58:32.232 309f Delete type=0 #1257
+2025/03/30-11:02:27.442 309d Level-0 table #1262: started
+2025/03/30-11:02:27.444 309d Level-0 table #1262: 80489 bytes OK
+2025/03/30-11:02:27.445 309d Delete type=0 #1259
+2025/03/30-11:04:51.403 309c Level-0 table #1264: started
+2025/03/30-11:04:51.405 309c Level-0 table #1264: 81152 bytes OK
+2025/03/30-11:04:51.406 309c Delete type=0 #1261
+2025/03/30-11:04:51.407 309c Compacting 4@0 + 1@1 files
+2025/03/30-11:04:51.410 309c Generated table #1265@0: 787 keys, 123819 bytes
+2025/03/30-11:04:51.410 309c Compacted 4@0 + 1@1 files => 123819 bytes
+2025/03/30-11:04:51.411 309c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-11:04:51.411 309c Delete type=2 #1256
+2025/03/30-11:04:51.411 309c Delete type=2 #1258
+2025/03/30-11:04:51.411 309c Delete type=2 #1260
+2025/03/30-11:04:51.411 309c Delete type=2 #1262
+2025/03/30-11:04:51.411 309c Delete type=2 #1264
+2025/03/30-11:06:44.004 309d Level-0 table #1267: started
+2025/03/30-11:06:44.006 309d Level-0 table #1267: 83520 bytes OK
+2025/03/30-11:06:44.008 309d Delete type=0 #1263
+2025/03/30-11:08:39.843 309c Level-0 table #1269: started
+2025/03/30-11:08:39.846 309c Level-0 table #1269: 86361 bytes OK
+2025/03/30-11:08:39.847 309c Delete type=0 #1266
+2025/03/30-11:10:23.651 30aa Level-0 table #1271: started
+2025/03/30-11:10:23.653 30aa Level-0 table #1271: 81789 bytes OK
+2025/03/30-11:10:23.654 30aa Delete type=0 #1268
+2025/03/30-11:13:27.304 309f Level-0 table #1273: started
+2025/03/30-11:13:27.306 309f Level-0 table #1273: 87261 bytes OK
+2025/03/30-11:13:27.307 309f Delete type=0 #1270
+2025/03/30-11:13:27.307 309f Compacting 4@0 + 1@1 files
+2025/03/30-11:13:27.310 309f Generated table #1274@0: 787 keys, 123786 bytes
+2025/03/30-11:13:27.310 309f Compacted 4@0 + 1@1 files => 123786 bytes
+2025/03/30-11:13:27.312 309f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-11:13:27.312 309f Delete type=2 #1265
+2025/03/30-11:13:27.312 309f Delete type=2 #1267
+2025/03/30-11:13:27.312 309f Delete type=2 #1269
+2025/03/30-11:13:27.312 309f Delete type=2 #1271
+2025/03/30-11:13:27.312 309f Delete type=2 #1273
+2025/03/30-11:16:28.438 309d Level-0 table #1276: started
+2025/03/30-11:16:28.440 309d Level-0 table #1276: 80130 bytes OK
+2025/03/30-11:16:28.441 309d Delete type=0 #1272
+2025/03/30-11:18:50.193 309d Level-0 table #1278: started
+2025/03/30-11:18:50.196 309d Level-0 table #1278: 79806 bytes OK
+2025/03/30-11:18:50.197 309d Delete type=0 #1275
+2025/03/30-11:20:38.189 309f Level-0 table #1280: started
+2025/03/30-11:20:38.191 309f Level-0 table #1280: 83004 bytes OK
+2025/03/30-11:20:38.192 309f Delete type=0 #1277
+2025/03/30-11:22:05.865 309d Level-0 table #1282: started
+2025/03/30-11:22:05.867 309d Level-0 table #1282: 86201 bytes OK
+2025/03/30-11:22:05.869 309d Delete type=0 #1279
+2025/03/30-11:22:05.869 309d Compacting 4@0 + 1@1 files
+2025/03/30-11:22:05.873 309d Generated table #1283@0: 787 keys, 123259 bytes
+2025/03/30-11:22:05.873 309d Compacted 4@0 + 1@1 files => 123259 bytes
+2025/03/30-11:22:05.874 309d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-11:22:05.874 309d Delete type=2 #1274
+2025/03/30-11:22:05.874 309d Delete type=2 #1276
+2025/03/30-11:22:05.874 309d Delete type=2 #1278
+2025/03/30-11:22:05.874 309d Delete type=2 #1280
+2025/03/30-11:22:05.874 309d Delete type=2 #1282
+2025/03/30-11:25:18.722 309d Level-0 table #1285: started
+2025/03/30-11:25:18.724 309d Level-0 table #1285: 83062 bytes OK
+2025/03/30-11:25:18.725 309d Delete type=0 #1281
+2025/03/30-11:32:46.052 30aa Level-0 table #1287: started
+2025/03/30-11:32:46.054 30aa Level-0 table #1287: 80634 bytes OK
+2025/03/30-11:32:46.057 30aa Delete type=0 #1284
+2025/03/30-11:42:42.542 30aa Level-0 table #1289: started
+2025/03/30-11:42:42.544 30aa Level-0 table #1289: 78040 bytes OK
+2025/03/30-11:42:42.546 30aa Delete type=0 #1286
+2025/03/30-11:46:22.282 309c Level-0 table #1291: started
+2025/03/30-11:46:22.284 309c Level-0 table #1291: 75973 bytes OK
+2025/03/30-11:46:22.286 309c Delete type=0 #1288
+2025/03/30-11:46:22.286 309c Compacting 4@0 + 1@1 files
+2025/03/30-11:46:22.289 309c Generated table #1292@0: 787 keys, 123770 bytes
+2025/03/30-11:46:22.289 309c Compacted 4@0 + 1@1 files => 123770 bytes
+2025/03/30-11:46:22.291 309c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-11:46:22.291 309c Delete type=2 #1283
+2025/03/30-11:46:22.291 309c Delete type=2 #1285
+2025/03/30-11:46:22.291 309c Delete type=2 #1287
+2025/03/30-11:46:22.291 309c Delete type=2 #1289
+2025/03/30-11:46:22.291 309c Delete type=2 #1291
+2025/03/30-12:23:38.203 30ac Level-0 table #1294: started
+2025/03/30-12:23:38.206 30ac Level-0 table #1294: 68391 bytes OK
+2025/03/30-12:23:38.207 30ac Delete type=0 #1290
+2025/03/30-12:51:24.690 30a3 Level-0 table #1296: started
+2025/03/30-12:51:24.692 30a3 Level-0 table #1296: 70299 bytes OK
+2025/03/30-12:51:24.694 30a3 Delete type=0 #1293
+2025/03/30-13:38:46.019 30a3 Level-0 table #1298: started
+2025/03/30-13:38:46.021 30a3 Level-0 table #1298: 67331 bytes OK
+2025/03/30-13:38:46.023 30a3 Delete type=0 #1295
+2025/03/30-13:53:58.376 309d Level-0 table #1300: started
+2025/03/30-13:53:58.378 309d Level-0 table #1300: 75944 bytes OK
+2025/03/30-13:53:58.380 309d Delete type=0 #1297
+2025/03/30-13:53:58.380 309d Compacting 4@0 + 1@1 files
+2025/03/30-13:53:58.384 309d Generated table #1301@0: 787 keys, 123737 bytes
+2025/03/30-13:53:58.384 309d Compacted 4@0 + 1@1 files => 123737 bytes
+2025/03/30-13:53:58.386 309d compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-13:53:58.386 309d Delete type=2 #1292
+2025/03/30-13:53:58.386 309d Delete type=2 #1294
+2025/03/30-13:53:58.386 309d Delete type=2 #1296
+2025/03/30-13:53:58.386 309d Delete type=2 #1298
+2025/03/30-13:53:58.386 309d Delete type=2 #1300
+2025/03/30-14:19:53.705 30aa Level-0 table #1303: started
+2025/03/30-14:19:53.708 30aa Level-0 table #1303: 68457 bytes OK
+2025/03/30-14:19:53.709 30aa Delete type=0 #1299
+2025/03/30-14:33:34.614 30a3 Level-0 table #1305: started
+2025/03/30-14:33:34.617 30a3 Level-0 table #1305: 71541 bytes OK
+2025/03/30-14:33:34.618 30a3 Delete type=0 #1302
+2025/03/30-14:43:17.984 30aa Level-0 table #1307: started
+2025/03/30-14:43:17.987 30aa Level-0 table #1307: 77692 bytes OK
+2025/03/30-14:43:17.989 30aa Delete type=0 #1304
+2025/03/30-15:00:20.409 309f Level-0 table #1309: started
+2025/03/30-15:00:20.412 309f Level-0 table #1309: 68601 bytes OK
+2025/03/30-15:00:20.413 309f Delete type=0 #1306
+2025/03/30-15:00:20.413 309f Compacting 4@0 + 1@1 files
+2025/03/30-15:00:20.416 309f Generated table #1310@0: 787 keys, 120485 bytes
+2025/03/30-15:00:20.416 309f Compacted 4@0 + 1@1 files => 120485 bytes
+2025/03/30-15:00:20.418 309f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-15:00:20.418 309f Delete type=2 #1301
+2025/03/30-15:00:20.418 309f Delete type=2 #1303
+2025/03/30-15:00:20.418 309f Delete type=2 #1305
+2025/03/30-15:00:20.418 309f Delete type=2 #1307
+2025/03/30-15:00:20.418 309f Delete type=2 #1309
+2025/03/30-15:06:17.791 30aa Level-0 table #1312: started
+2025/03/30-15:06:17.793 30aa Level-0 table #1312: 75807 bytes OK
+2025/03/30-15:06:17.794 30aa Delete type=0 #1308
+2025/03/30-15:46:25.882 30a3 Level-0 table #1314: started
+2025/03/30-15:46:25.884 30a3 Level-0 table #1314: 62841 bytes OK
+2025/03/30-15:46:25.886 30a3 Delete type=0 #1311
+2025/03/30-16:43:40.747 30aa Level-0 table #1316: started
+2025/03/30-16:43:40.749 30aa Level-0 table #1316: 54914 bytes OK
+2025/03/30-16:43:40.750 30aa Delete type=0 #1313
+2025/03/30-17:40:56.168 30aa Level-0 table #1318: started
+2025/03/30-17:40:56.170 30aa Level-0 table #1318: 54880 bytes OK
+2025/03/30-17:40:56.172 30aa Delete type=0 #1315
+2025/03/30-17:40:56.172 309c Compacting 4@0 + 1@1 files
+2025/03/30-17:40:56.176 309c Generated table #1319@0: 787 keys, 120448 bytes
+2025/03/30-17:40:56.176 309c Compacted 4@0 + 1@1 files => 120448 bytes
+2025/03/30-17:40:56.177 309c compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-17:40:56.177 309c Delete type=2 #1310
+2025/03/30-17:40:56.177 309c Delete type=2 #1312
+2025/03/30-17:40:56.178 309c Delete type=2 #1314
+2025/03/30-17:40:56.178 309c Delete type=2 #1316
+2025/03/30-17:40:56.178 309c Delete type=2 #1318
+2025/03/30-18:36:08.900 30a3 Level-0 table #1321: started
+2025/03/30-18:36:08.902 30a3 Level-0 table #1321: 59844 bytes OK
+2025/03/30-18:36:08.904 30a3 Delete type=0 #1317
+2025/03/30-19:27:29.171 309f Level-0 table #1323: started
+2025/03/30-19:27:29.174 309f Level-0 table #1323: 60912 bytes OK
+2025/03/30-19:27:29.175 309f Delete type=0 #1320
+2025/03/30-19:51:23.075 30aa Level-0 table #1325: started
+2025/03/30-19:51:23.078 30aa Level-0 table #1325: 67847 bytes OK
+2025/03/30-19:51:23.079 30aa Delete type=0 #1322
+2025/03/30-20:06:08.650 30aa Level-0 table #1327: started
+2025/03/30-20:06:08.652 30aa Level-0 table #1327: 71744 bytes OK
+2025/03/30-20:06:08.654 30aa Delete type=0 #1324
+2025/03/30-20:06:08.655 30aa Compacting 4@0 + 1@1 files
+2025/03/30-20:06:08.658 30aa Generated table #1328@0: 787 keys, 122222 bytes
+2025/03/30-20:06:08.658 30aa Compacted 4@0 + 1@1 files => 122222 bytes
+2025/03/30-20:06:08.660 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-20:06:08.661 30aa Delete type=2 #1319
+2025/03/30-20:06:08.661 30aa Delete type=2 #1321
+2025/03/30-20:06:08.661 30aa Delete type=2 #1323
+2025/03/30-20:06:08.661 30aa Delete type=2 #1325
+2025/03/30-20:06:08.661 30aa Delete type=2 #1327
+2025/03/30-20:21:38.140 309d Level-0 table #1330: started
+2025/03/30-20:21:38.142 309d Level-0 table #1330: 77331 bytes OK
+2025/03/30-20:21:38.144 309d Delete type=0 #1326
+2025/03/30-20:26:49.934 309d Level-0 table #1332: started
+2025/03/30-20:26:49.936 309d Level-0 table #1332: 69095 bytes OK
+2025/03/30-20:26:49.937 309d Delete type=0 #1329
+2025/03/30-20:33:08.443 30a3 Level-0 table #1334: started
+2025/03/30-20:33:08.445 30a3 Level-0 table #1334: 76177 bytes OK
+2025/03/30-20:33:08.447 30a3 Delete type=0 #1331
+2025/03/30-20:35:20.429 309f Level-0 table #1336: started
+2025/03/30-20:35:20.432 309f Level-0 table #1336: 79126 bytes OK
+2025/03/30-20:35:20.433 309f Delete type=0 #1333
+2025/03/30-20:35:20.433 309f Compacting 4@0 + 1@1 files
+2025/03/30-20:35:20.437 309f Generated table #1337@0: 797 keys, 121729 bytes
+2025/03/30-20:35:20.437 309f Compacted 4@0 + 1@1 files => 121729 bytes
+2025/03/30-20:35:20.438 309f compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/30-20:35:20.438 309f Delete type=2 #1328
+2025/03/30-20:35:20.438 309f Delete type=2 #1330
+2025/03/30-20:35:20.438 309f Delete type=2 #1332
+2025/03/30-20:35:20.438 309f Delete type=2 #1334
+2025/03/30-20:35:20.438 309f Delete type=2 #1336
+2025/03/30-20:39:34.581 30aa Level-0 table #1339: started
+2025/03/30-20:39:34.584 30aa Level-0 table #1339: 77089 bytes OK
+2025/03/30-20:39:34.585 30aa Delete type=0 #1335
+2025/03/30-21:02:27.932 309f Level-0 table #1341: started
+2025/03/30-21:02:27.935 309f Level-0 table #1341: 68265 bytes OK
+2025/03/30-21:02:27.936 309f Delete type=0 #1338
+2025/03/31-08:29:40.806 309d Level-0 table #1343: started
+2025/03/31-08:29:40.808 309d Level-0 table #1343: 70470 bytes OK
+2025/03/31-08:29:40.809 309d Delete type=0 #1340
+2025/03/31-09:20:25.578 30aa Level-0 table #1345: started
+2025/03/31-09:20:25.581 30aa Level-0 table #1345: 61393 bytes OK
+2025/03/31-09:20:25.582 30aa Delete type=0 #1342
+2025/03/31-09:20:25.582 30aa Compacting 4@0 + 1@1 files
+2025/03/31-09:20:25.586 30aa Generated table #1346@0: 797 keys, 122123 bytes
+2025/03/31-09:20:25.586 30aa Compacted 4@0 + 1@1 files => 122123 bytes
+2025/03/31-09:20:25.587 30aa compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/31-09:20:25.587 30aa Delete type=2 #1337
+2025/03/31-09:20:25.587 30aa Delete type=2 #1339
+2025/03/31-09:20:25.587 30aa Delete type=2 #1341
+2025/03/31-09:20:25.587 30aa Delete type=2 #1343
+2025/03/31-09:20:25.587 30aa Delete type=2 #1345
+2025/03/31-10:16:09.817 30aa Level-0 table #1348: started
+2025/03/31-10:16:09.820 30aa Level-0 table #1348: 56785 bytes OK
+2025/03/31-10:16:09.822 30aa Delete type=0 #1344
+2025/03/31-10:45:38.542 30aa Level-0 table #1350: started
+2025/03/31-10:45:38.545 30aa Level-0 table #1350: 67320 bytes OK
+2025/03/31-10:45:38.547 30aa Delete type=0 #1347
+2025/03/31-11:00:32.027 30a3 Level-0 table #1352: started
+2025/03/31-11:00:32.029 30a3 Level-0 table #1352: 82251 bytes OK
+2025/03/31-11:00:32.031 30a3 Delete type=0 #1349

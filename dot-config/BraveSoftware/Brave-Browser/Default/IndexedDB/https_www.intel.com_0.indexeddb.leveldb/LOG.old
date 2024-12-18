@@ -1,0 +1,6 @@
+2025/03/17-12:36:41.823 b0cd Creating DB /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.intel.com_0.indexeddb.leveldb since it was missing.
+2025/03/17-12:36:41.825 b0cd Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.intel.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/17-12:36:42.392 b0cd Level-0 table #5: started
+2025/03/17-12:36:42.393 b0cd Level-0 table #5: 584 bytes OK
+2025/03/17-12:36:42.394 b0cd Delete type=0 #3
+2025/03/17-12:36:42.394 b0cd Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

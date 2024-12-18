@@ -1,0 +1,6 @@
+2025/03/17-12:44:56.223 b0ce Creating DB /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ozwizard.medium.com_0.indexeddb.leveldb since it was missing.
+2025/03/17-12:44:56.225 b0ce Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ozwizard.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/17-12:59:21.049 b0ce Level-0 table #5: started
+2025/03/17-12:59:21.049 b0ce Level-0 table #5: 7644 bytes OK
+2025/03/17-12:59:21.051 b0ce Delete type=0 #3
+2025/03/17-12:59:21.051 b0ce Manual compaction at level-0 from (begin) .. (end); will stop at (end)

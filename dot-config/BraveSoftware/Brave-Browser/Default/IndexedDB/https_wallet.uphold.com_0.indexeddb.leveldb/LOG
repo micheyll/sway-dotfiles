@@ -1,0 +1,20 @@
+2025/03/09-19:56:48.950 b86c Creating DB /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.uphold.com_0.indexeddb.leveldb since it was missing.
+2025/03/09-19:56:48.952 b86c Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.uphold.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/09-19:56:48.962 b86c Level-0 table #5: started
+2025/03/09-19:56:48.963 b86c Level-0 table #5: 1305 bytes OK
+2025/03/09-19:56:48.964 b86c Delete type=0 #3
+2025/03/09-19:56:48.964 b86c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/09-19:57:51.502 b86c Level-0 table #7: started
+2025/03/09-19:57:51.503 b86c Level-0 table #7: 16168 bytes OK
+2025/03/09-19:57:51.504 b86c Delete type=0 #4
+2025/03/09-19:57:51.504 b86b Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/09-19:58:00.003 b877 Level-0 table #9: started
+2025/03/09-19:58:00.003 b877 Level-0 table #9: 1320 bytes OK
+2025/03/09-19:58:00.005 b877 Delete type=0 #6
+2025/03/09-19:58:00.005 b86a Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 417 : 1
+2025/03/09-19:58:00.005 b86a Compacting 1@0 + 1@1 files
+2025/03/09-19:58:00.006 b86a Generated table #10@0: 162 keys, 11531 bytes
+2025/03/09-19:58:00.006 b86a Compacted 1@0 + 1@1 files => 11531 bytes
+2025/03/09-19:58:00.007 b86a compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/09-19:58:00.007 b86a Delete type=2 #9
+2025/03/09-19:58:00.007 b86a Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 417 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

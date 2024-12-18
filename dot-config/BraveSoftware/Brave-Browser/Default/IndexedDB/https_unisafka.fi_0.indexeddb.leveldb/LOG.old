@@ -1,0 +1,15 @@
+2025/03/31-10:44:09.163 309c Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_unisafka.fi_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/31-10:44:09.164 309c Recovering log #4
+2025/03/31-10:44:09.164 309c Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_unisafka.fi_0.indexeddb.leveldb/000004.log 
+2025/03/31-10:44:48.929 309d Level-0 table #8: started
+2025/03/31-10:44:48.930 309d Level-0 table #8: 36127 bytes OK
+2025/03/31-10:44:48.931 309d Delete type=0 #4
+2025/03/31-10:44:48.932 309d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/31-10:44:48.932 309d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xd0\x81\x88\xb2^yB\x00\x016\x00j\x00s\x00o\x00n\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00u\x00n\x00i\x00s\x00a\x00f\x00k\x00a\x00.\x00f\x00i\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00j\x00s\x00o\x00n\x00/\x002\x000\x002\x005\x00/\x001\x004\x00/\x005\x00/\x00l\x00a\x00.\x00j\x00s\x00o\x00n' @ 1460 : 1
+2025/03/31-10:44:48.932 309d Compacting 1@1 + 1@2 files
+2025/03/31-10:44:48.933 309d Generated table #9@1: 167 keys, 8516 bytes
+2025/03/31-10:44:48.933 309d Compacted 1@1 + 1@2 files => 8516 bytes
+2025/03/31-10:44:48.934 309d compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/31-10:44:48.934 309d Delete type=2 #5
+2025/03/31-10:44:48.934 309d Delete type=2 #8
+2025/03/31-10:44:48.934 309d Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xd0\x81\x88\xb2^yB\x00\x016\x00j\x00s\x00o\x00n\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00u\x00n\x00i\x00s\x00a\x00f\x00k\x00a\x00.\x00f\x00i\x00/\x00s\x00t\x00a\x00t\x00i\x00c\x00/\x00j\x00s\x00o\x00n\x00/\x002\x000\x002\x005\x00/\x001\x004\x00/\x005\x00/\x00l\x00a\x00.\x00j\x00s\x00o\x00n' @ 1460 : 1 .. (end); will stop at (end)

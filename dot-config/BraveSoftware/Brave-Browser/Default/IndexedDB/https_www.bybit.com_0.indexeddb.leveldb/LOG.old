@@ -1,0 +1,13 @@
+2025/03/21-09:40:16.461 b0cf Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.bybit.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/21-09:40:16.461 b0cf Recovering log #11
+2025/03/21-09:40:16.461 b0cf Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.bybit.com_0.indexeddb.leveldb/000011.log 
+2025/03/21-09:40:16.814 b0dc Level-0 table #16: started
+2025/03/21-09:40:16.815 b0dc Level-0 table #16: 5058 bytes OK
+2025/03/21-09:40:16.817 b0dc Delete type=0 #11
+2025/03/21-09:40:16.817 b0db Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/21-09:41:02.364 b0ce Compacting 1@1 + 1@2 files
+2025/03/21-09:41:02.366 b0ce Generated table #17@1: 166 keys, 7280 bytes
+2025/03/21-09:41:02.366 b0ce Compacted 1@1 + 1@2 files => 7280 bytes
+2025/03/21-09:41:02.367 b0ce compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/21-09:41:02.367 b0ce Delete type=2 #13
+2025/03/21-09:41:02.367 b0ce Delete type=2 #16

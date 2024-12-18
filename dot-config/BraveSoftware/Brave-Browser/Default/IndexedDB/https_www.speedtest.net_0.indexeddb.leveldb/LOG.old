@@ -1,0 +1,11 @@
+2025/03/22-10:12:13.202 b0cd Creating DB /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb since it was missing.
+2025/03/22-10:12:13.204 b0cd Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/22-10:12:13.226 b0cd Level-0 table #5: started
+2025/03/22-10:12:13.228 b0cd Level-0 table #5: 1211 bytes OK
+2025/03/22-10:12:13.229 b0cd Delete type=0 #3
+2025/03/22-10:12:13.229 b0cd Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/22-10:12:13.249 b0cf Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/22-10:12:13.252 b0ce Level-0 table #7: started
+2025/03/22-10:12:13.253 b0ce Level-0 table #7: 7495 bytes OK
+2025/03/22-10:12:13.254 b0ce Delete type=0 #4
+2025/03/22-10:12:13.254 b0ce Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

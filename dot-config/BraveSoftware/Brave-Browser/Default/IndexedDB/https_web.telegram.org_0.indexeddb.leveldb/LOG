@@ -1,0 +1,18 @@
+2025/03/15-09:04:20.411 979 Creating DB /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb since it was missing.
+2025/03/15-09:04:20.413 979 Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/15-09:04:20.424 979 Level-0 table #5: started
+2025/03/15-09:04:20.425 979 Level-0 table #5: 11297 bytes OK
+2025/03/15-09:04:20.426 979 Delete type=0 #3
+2025/03/15-09:04:20.426 979 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/03/15-09:09:25.224 97a Level-0 table #7: started
+2025/03/15-09:09:25.228 97a Level-0 table #7: 389641 bytes OK
+2025/03/15-09:09:25.229 97a Delete type=0 #4
+2025/03/15-09:09:25.229 97a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/15-09:09:25.229 97a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x06\x05\x02\x01\x09\x009\x000\x007\x007\x002\x005\x009\x009\x007' @ 3536 : 1
+2025/03/15-09:09:25.229 97a Compacting 1@1 + 1@2 files
+2025/03/15-09:09:25.232 97a Generated table #8@1: 962 keys, 155733 bytes
+2025/03/15-09:09:25.232 97a Compacted 1@1 + 1@2 files => 155733 bytes
+2025/03/15-09:09:25.233 97a compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/15-09:09:25.233 97a Delete type=2 #5
+2025/03/15-09:09:25.233 97a Delete type=2 #7
+2025/03/15-09:09:25.233 97a Manual compaction at level-1 from '\x00\x06\x05\x02\x01\x09\x009\x000\x007\x007\x002\x005\x009\x009\x007' @ 3536 : 1 .. (end); will stop at (end)
