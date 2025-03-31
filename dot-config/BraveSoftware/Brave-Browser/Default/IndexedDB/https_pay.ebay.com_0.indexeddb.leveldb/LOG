@@ -1,7 +1,0 @@
-2025/03/16-12:01:23.232 b0ce Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pay.ebay.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/16-12:01:23.232 b0ce Recovering log #6
-2025/03/16-12:01:23.232 b0ce Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pay.ebay.com_0.indexeddb.leveldb/000006.log 
-2025/03/16-12:01:23.933 b0cd Level-0 table #11: started
-2025/03/16-12:01:23.934 b0cd Level-0 table #11: 516 bytes OK
-2025/03/16-12:01:23.935 b0cd Delete type=0 #6
-2025/03/16-12:01:23.935 b0cd Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

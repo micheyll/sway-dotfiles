@@ -1,1 +1,0 @@
-function handleMessage(e,n,o){"bitbox02"===e.type&&"popup-close"===e.action&&window.close()}window.addEventListener("load",(e=>{const n=new URLSearchParams(window.location.search);document.getElementById("code").textContent=n.get("code")})),chrome.runtime.onMessage.addListener(handleMessage);

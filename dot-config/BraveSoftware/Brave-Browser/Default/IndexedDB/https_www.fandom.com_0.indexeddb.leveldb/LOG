@@ -1,6 +1,0 @@
-2025/03/18-18:42:11.572 b0cf Creating DB /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb since it was missing.
-2025/03/18-18:42:11.574 b0cf Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fandom.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/18-18:42:34.733 b0ce Level-0 table #5: started
-2025/03/18-18:42:34.734 b0ce Level-0 table #5: 4440 bytes OK
-2025/03/18-18:42:34.735 b0ce Delete type=0 #3
-2025/03/18-18:42:34.735 b0ce Manual compaction at level-0 from (begin) .. (end); will stop at (end)

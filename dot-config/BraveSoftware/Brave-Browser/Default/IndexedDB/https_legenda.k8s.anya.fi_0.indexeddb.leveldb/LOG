@@ -1,7 +1,0 @@
-2025/03/11-22:55:31.617 62df Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_legenda.k8s.anya.fi_0.indexeddb.leveldb/MANIFEST-000001
-2025/03/11-22:55:31.617 62df Recovering log #31
-2025/03/11-22:55:31.617 62df Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_legenda.k8s.anya.fi_0.indexeddb.leveldb/000031.log 
-2025/03/11-22:55:31.657 62e0 Level-0 table #37: started
-2025/03/11-22:55:31.657 62e0 Level-0 table #37: 636 bytes OK
-2025/03/11-22:55:31.659 62e0 Delete type=0 #31
-2025/03/11-22:55:31.659 62e0 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,6 +1,0 @@
-2025/03/28-20:09:38.822 30bf Reusing MANIFEST /home/nix/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
-2025/03/28-20:09:38.822 30bf Recovering log #3
-2025/03/28-20:09:38.828 30bf Reusing old log /home/nix/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000003.log 
-2025/03/28-20:09:40.353 30ac Level-0 table #5: started
-2025/03/28-20:09:40.355 30ac Level-0 table #5: 114439 bytes OK
-2025/03/28-20:09:40.357 30ac Delete type=0 #3
